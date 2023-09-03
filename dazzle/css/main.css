@@ -1486,6 +1486,7 @@ h1.intro-header::before {
   margin-right: 5px;
   position: relative;
   top: 2px;
+  justify-content: center;
 }
 
 .home-content-left .button.stroke:hover,
@@ -1513,7 +1514,7 @@ h1.intro-header::before {
   width: 75%;
 }
 
-.home-image-right img:hover{
+.home-image-right:hover{
   background-image: url(C:\Users\avrah\Desktop\dazzle\images\Untitled_Project_V1.mp4);
 }
 
@@ -1859,12 +1860,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .about-features .feature .icon {
   margin-bottom: 1.5rem;
   display: inline-block;
+  
 }
 
 .about-features .feature .icon i {
   color: #62bffd;
   font-size: 4.8rem;
+  
 }
+
 
 .about-features .feature h3 {
   font-family: "montserrat-regular", sans-serif;
@@ -2105,6 +2109,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .pricing-table {
   text-align: center;
 }
+
+
 
 .pricing-table .plan-block {
   background: #ffffff;
