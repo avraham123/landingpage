@@ -64,6 +64,7 @@ html {
 html,
 body {
   height: 100%;
+ 
 }
 
 body {
@@ -74,6 +75,7 @@ body {
   color: #767676;
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -1147,27 +1149,27 @@ h1.intro-header::before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   z-index: 501;
 }
-
 .header-logo a {
   display: block;
   margin: 0;
   padding: 0;
   outline: 0;
   border: none;
-  width: 97px;
-  height: 22px;
+  width: 150px; /* Adjust the width as needed */
+  height: 34px; /* Adjust the height as needed */
   background: url("../images/logo.png") no-repeat center;
-  background-size: 97px 22px;
+  background-size: 150px 34px; /* Adjust this to match the new width and height */
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 
 
 /* ------------------------------------------------------------------- 
@@ -1329,9 +1331,9 @@ h1.intro-header::before {
 
 @media only screen and (max-width: 768px) {
   .header-logo a {
-    width: 88px;
-    height: 20px;
-    background-size: 88px 20px;
+    width: 150px;
+    height: 34px;
+    background-size: 150px 34px;
   }
   #header-nav-wrap {
     display: none;
@@ -1515,7 +1517,7 @@ h1.intro-header::before {
 }
 
 .home-image-right:hover{
-  background-image: url(C:\Users\avrah\Desktop\dazzle\images\Untitled_Project_V1.mp4);
+  background-image: url(C:\Users\avrah\Desktop\dazzle\images\video.gif);
 }
 
 
@@ -1584,7 +1586,7 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: #44c455 !important;
+  color: #39c0e5 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
@@ -1607,11 +1609,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   animation: animate-it 3s ease infinite;
 }
 
+
 .scroll-icon i {
   font-size: 2.4rem;
   position: relative;
   bottom: -6px;
 }
+
 
 
 /* vertical animation */
@@ -2629,14 +2633,14 @@ footer ul a:visited {
 
 .footer-logo {
   display: block;
-  margin: 0 0 5.4rem 0;
+  margin: 0;
   padding: 0;
   outline: 0;
   border: none;
-  width: 93px;
-  height: 21px;
+  width: 150px; /* Adjust the width as needed */
+  height: 34px; /* Adjust the height as needed */
   background: url("../images/logo.png") no-repeat center;
-  background-size: 93px 21px;
+  background-size: 150px 34px; /* Adjust this to match the new width and height */
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
